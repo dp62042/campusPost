@@ -1,0 +1,39 @@
+<% layout("/layouts/boilerplate.ejs") %>
+
+<div class="container mt-4">
+
+<form action="/posts" method="POST" class="needs-validation" novalidate enctype="multipart/form-data">
+  
+    <!--title-->
+    <div class="mb-3">
+      <label class="form-label">Title</label>
+      <input type="text" name="post[title]" class="form-control" placeholder="Ease My Campus" required>
+    </div>
+     <!--category-->
+     <div class="mb-3">
+        <label class="form-label">Category</label>
+        <input type="text" name="post[category]" class="form-control" placeholder="Career & Opportunities" required>
+     </div>
+
+     <!--description-->
+     <div class="mb-3">
+        <label class="form-label">Description</label>
+        <textarea type="text" name="post[description]" class="form-control" placeholder="A student-centric platform integrating learning, collaboration, and career growth to empower future leaders." required></textarea>
+     </div>
+      <!--img-->
+    
+
+    <div class="mb-3">
+      <label class="form-label">Upload Post Image</label>
+      <input type="file" name="post[img]" accept="image/*" class="form-control"required>
+   </div>
+
+    <!-- button -->
+     <div class="mb-3">
+     <button class="btn btn-outline-success">Submit</button>
+    </div>
+
+    
+</form>
+
+</div>

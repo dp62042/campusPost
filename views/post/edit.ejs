@@ -1,0 +1,33 @@
+<% layout("/layouts/boilerplate.ejs") %>
+<div class="container mt-4">
+<form action="/posts/<%= post._id %>?_method=PUT" method="POST" class="needs-validation" novalidate enctype="multipart/form-data">
+    <!--title-->
+    <div class="mb-3">
+      <label class="form-label">Title</label>
+      <input type="text" name="post[title]" class="form-control" value="<%= post.title %>" required>
+    </div>
+     <!--category-->
+     <div class="mb-3">
+        <label class="form-label">Category</label>
+        <input type="text" name="post[category]" class="form-control" value="<%= post.category %>" required>
+     </div>
+
+     <!--description-->
+     <div class="mb-3">
+        <label class="form-label">Description</label>
+        <textarea type="text" name="post[description]" class="form-control" rows="4"  required><%= post.description %></textarea>
+     </div>
+      <!--img-->
+    <div class="mb-3">
+        <label class="form-label">Upload New Image</label>
+        <input type="file" name="post[img]" class="form-control"  required>
+    </div>
+    <!-- button -->
+     <div class="mb-3">
+     <button class="btn btn-outline-success">Submit</button>
+    </div>
+
+    
+</form>
+
+</div>

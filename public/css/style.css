@@ -1,0 +1,84 @@
+footer{
+    height: 5rem !important;
+    background-color: #f0f2f0 !important;
+    padding : 10px !important;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    margin-top : auto !important;
+    
+}
+
+.f-info{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials a i{
+    color: black;
+}
+
+.f-info-socials a i:hover{
+    color: #2197d1;
+}
+
+.f-info-tc a {
+    text-decoration: none;
+    color: black;
+}
+
+.f-info-tc a:hover {
+   color:#2197d1 ;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.card a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.card a:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
+
+.card {
+    border: none !important;
+}
+
+.show-card {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-notfound {
+    font-weight: bold;
+    size:2rem !important;
+    margin-top: 4rem !important;
+}
+
+.review-card {
+   
+    padding-top: 0.6rem !important;
+    margin : 5px !important;
+    
+    
+}
+
+.user-name {
+    padding-left: 0.5rem !important;
+    font-size : 1rem !important;
+}
+.fa-user {
+    margin : 0.5rem !important;
+}
