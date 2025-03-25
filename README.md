@@ -1,6 +1,6 @@
 # CampusPost
 
-CampusPost is a community-driven blog platform designed for students and professionals to share insights, experiences, and knowledge across various domains. It is a part of the Ease My Campus initiative, aiming to foster collaboration, learning, and career growth.
+CampusPost is a community-driven blog platform designed for students and professionals to share insights, experiences, and knowledge across various domains. It is a part of the Ease My Campus initiative, which aims to fosters collaboration, learning, and career growth.
 
 ## Features
 
@@ -14,8 +14,8 @@ CampusPost is a community-driven blog platform designed for students and profess
 
 ## Tech Stack
 
-- Frontend: HTML,CSS
-- Backend: Node.js, Express.js,theirs framework 
+- Frontend: HTML, CSS
+- Backend: Node.js, Express.js, and theirs framework 
 - Database: MongoDB
 - Authentication: Passport(local)
 - Hosting: render
